@@ -1,0 +1,20 @@
+CRITICAL - 2022-05-15 00:03:29 --> Call to undefined method App\Models\MahasiswaModel::hapusMahasiswa
+#0 C:\xampp\htdocs\utsweb3\app\Controllers\Mahasiswa.php(70): CodeIgniter\Model->__call('hapusMahasiswa', Array)
+#1 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->delete('5')
+#2 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\utsweb3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\utsweb3\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-15 00:13:58 --> Undefined array key "no_kelas"
+#0 C:\xampp\htdocs\utsweb3\app\Views\mahasiswa_view.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\utsweb3\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\utsweb3\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\utsweb3\system\Common.php(1089): CodeIgniter\View\View->render('mahasiswa_view', Array, true)
+#4 C:\xampp\htdocs\utsweb3\app\Controllers\Mahasiswa.php(32): view('mahasiswa_view', Array)
+#5 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#6 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\xampp\htdocs\utsweb3\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\utsweb3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\utsweb3\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
